@@ -1,0 +1,1215 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 6,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 6,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 6,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 6,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add buyer profile",
+    "content_type": 7,
+    "codename": "add_buyerprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change buyer profile",
+    "content_type": 7,
+    "codename": "change_buyerprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete buyer profile",
+    "content_type": 7,
+    "codename": "delete_buyerprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view buyer profile",
+    "content_type": 7,
+    "codename": "view_buyerprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add provider profile",
+    "content_type": 8,
+    "codename": "add_providerprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change provider profile",
+    "content_type": 8,
+    "codename": "change_providerprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete provider profile",
+    "content_type": 8,
+    "codename": "delete_providerprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view provider profile",
+    "content_type": 8,
+    "codename": "view_providerprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add service request",
+    "content_type": 9,
+    "codename": "add_servicerequest"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change service request",
+    "content_type": 9,
+    "codename": "change_servicerequest"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete service request",
+    "content_type": 9,
+    "codename": "delete_servicerequest"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view service request",
+    "content_type": 9,
+    "codename": "view_servicerequest"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add application",
+    "content_type": 10,
+    "codename": "add_application"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change application",
+    "content_type": 10,
+    "codename": "change_application"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete application",
+    "content_type": 10,
+    "codename": "delete_application"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view application",
+    "content_type": 10,
+    "codename": "view_application"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 11,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 11,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 11,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 11,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add message thread",
+    "content_type": 12,
+    "codename": "add_messagethread"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change message thread",
+    "content_type": 12,
+    "codename": "change_messagethread"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete message thread",
+    "content_type": 12,
+    "codename": "delete_messagethread"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view message thread",
+    "content_type": 12,
+    "codename": "view_messagethread"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add message",
+    "content_type": 13,
+    "codename": "add_message"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change message",
+    "content_type": 13,
+    "codename": "change_message"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete message",
+    "content_type": 13,
+    "codename": "delete_message"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view message",
+    "content_type": 13,
+    "codename": "view_message"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add review",
+    "content_type": 14,
+    "codename": "add_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change review",
+    "content_type": 14,
+    "codename": "change_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete review",
+    "content_type": 14,
+    "codename": "delete_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view review",
+    "content_type": 14,
+    "codename": "view_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add notification",
+    "content_type": 15,
+    "codename": "add_notification"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change notification",
+    "content_type": 15,
+    "codename": "change_notification"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete notification",
+    "content_type": 15,
+    "codename": "delete_notification"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view notification",
+    "content_type": 15,
+    "codename": "view_notification"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add audit log",
+    "content_type": 16,
+    "codename": "add_auditlog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change audit log",
+    "content_type": 16,
+    "codename": "change_auditlog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete audit log",
+    "content_type": 16,
+    "codename": "delete_auditlog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view audit log",
+    "content_type": 16,
+    "codename": "view_auditlog"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "users",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "buyers",
+    "model": "buyerprofile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "providers",
+    "model": "providerprofile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "service_requests",
+    "model": "servicerequest"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "applications",
+    "model": "application"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "documents",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "chat",
+    "model": "messagethread"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "chat",
+    "model": "message"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "reviews",
+    "model": "review"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "notifications",
+    "model": "notification"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "auditlog",
+    "model": "auditlog"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$btJn5stdQgexncxXrIYkUp$Ff5HFVcycbSAew2bdrqWrI4H5CoV8htGbxacli8K3Yk=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "tanvir",
+    "first_name": "",
+    "last_name": "",
+    "email": "tanviralam.cse@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-08-21T15:55:58.486Z",
+    "role": "",
+    "phone": "",
+    "locale": "de",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$fw8kTU7JU8NjtEQgLBIZ0u$/emKia0TY3AyzUrtJvOwxJnYnXPySSaQ3YQ8Im4qcDQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "tanvir@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "tanvir@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-21T17:11:57.837Z",
+    "role": "provider",
+    "phone": "",
+    "locale": "de",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$cpIppzYb2y9LMMsN1Udtwj$suQPF5OB3oX8gJB1ZbJt1maC7xI2BPejyH4XNqwX2lk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "imtiaz01",
+    "first_name": "",
+    "last_name": "",
+    "email": "imtiaz@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-21T17:29:32.256Z",
+    "role": "buyer",
+    "phone": "",
+    "locale": "de",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Yjcrc4iBb7jCMPkYDuIHqS$O+qLXJuGbbLfbTHQg3AD2YANEZJUOkvf902jVH5Prf0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "tuhin2233",
+    "first_name": "",
+    "last_name": "",
+    "email": "contact@tanvir.cloud",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-25T12:48:37.425Z",
+    "role": "buyer",
+    "phone": "",
+    "locale": "de",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$NIouIGKmxmjOPXv335yBZY$dUxIr+/9PWofyyo6i+jPi2muYiQRkIiZzHaGIMkdLL0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "imtiaz02",
+    "first_name": "",
+    "last_name": "",
+    "email": "imtiaz02@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-25T12:49:16.895Z",
+    "role": "provider",
+    "phone": "",
+    "locale": "de",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "buyers.buyerprofile",
+  "pk": 1,
+  "fields": {
+    "user": 3,
+    "company_name": "",
+    "industry": "",
+    "locations": [],
+    "contact_person_name": "imtiaz01",
+    "contact_person_position": "",
+    "company_size": "",
+    "machines": [],
+    "optional_service_requirements": [],
+    "qualifications_needed": [],
+    "safety_requirements": [],
+    "additional_info": "",
+    "created_at": "2025-08-25T09:09:57.064Z"
+  }
+},
+{
+  "model": "buyers.buyerprofile",
+  "pk": 2,
+  "fields": {
+    "user": 4,
+    "company_name": "",
+    "industry": "",
+    "locations": [],
+    "contact_person_name": "tuhin2233",
+    "contact_person_position": "",
+    "company_size": "",
+    "machines": [],
+    "optional_service_requirements": [],
+    "qualifications_needed": [],
+    "safety_requirements": [],
+    "additional_info": "",
+    "created_at": "2025-08-25T12:48:37.926Z"
+  }
+},
+{
+  "model": "providers.providerprofile",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "company_name": "",
+    "base_location": "",
+    "countries": [],
+    "operating_regions": [],
+    "education": "",
+    "years_experience": 0,
+    "certifications": [],
+    "tech_skills": [],
+    "services_offered": [],
+    "hourly_rate_eur": "0.00",
+    "average_rating": 0.0,
+    "ratings_count": 0,
+    "created_at": "2025-08-25T09:09:57.056Z"
+  }
+},
+{
+  "model": "providers.providerprofile",
+  "pk": 2,
+  "fields": {
+    "user": 5,
+    "company_name": "",
+    "base_location": "",
+    "countries": [],
+    "operating_regions": [],
+    "education": "",
+    "years_experience": 0,
+    "certifications": [],
+    "tech_skills": [],
+    "services_offered": [],
+    "hourly_rate_eur": "0.00",
+    "average_rating": 0.0,
+    "ratings_count": 0,
+    "created_at": "2025-08-25T12:49:17.371Z"
+  }
+},
+{
+  "model": "service_requests.servicerequest",
+  "pk": 1,
+  "fields": {
+    "buyer": 1,
+    "title": "Test Raw Service Request",
+    "machine_type": "Industrial Robot",
+    "serial_number": "ROBOT-12345",
+    "locations": [],
+    "customer_company_name": "",
+    "customer_address": "123 Test Street, Test City",
+    "contact_person_name": "Test Contact",
+    "contact_person_position": "Manager",
+    "contact_email": "test@example.com",
+    "contact_phone": "+49123456789",
+    "service_types": [
+      "Maintenance",
+      "Inspection"
+    ],
+    "has_maintenance_history": false,
+    "history_notes": "",
+    "issue_description": "Robot arm is making unusual noises during operation",
+    "technician_requirements": [
+      "PLC Programming",
+      "Robotics"
+    ],
+    "safety_requirements": [
+      "Safety Certification"
+    ],
+    "urgency": "Normal (Within a Week)",
+    "preferred_date": "2025-09-01",
+    "alternative_dates": [],
+    "budget_eur": "2500.00",
+    "payment_method": "bank_transfer",
+    "status": "in_progress",
+    "created_at": "2025-08-25T10:03:50.446Z",
+    "updated_at": "2025-08-25T11:31:31.815Z"
+  }
+},
+{
+  "model": "service_requests.servicerequest",
+  "pk": 2,
+  "fields": {
+    "buyer": 1,
+    "title": "dvzxvzd",
+    "machine_type": "vv\\d",
+    "serial_number": "sdsfsf",
+    "locations": [],
+    "customer_company_name": "dfas",
+    "customer_address": "fdfsfsa",
+    "contact_person_name": "ffdsfdf",
+    "contact_person_position": "fsdfds",
+    "contact_email": "imtiaz@gmail.com",
+    "contact_phone": "ffdffd",
+    "service_types": [
+      "Maintenance",
+      "Installation"
+    ],
+    "has_maintenance_history": false,
+    "history_notes": "",
+    "issue_description": "dwafaw",
+    "technician_requirements": [
+      "PLC (Siemens, Beckhoff, etc)"
+    ],
+    "safety_requirements": [
+      "Occupational Safety Training"
+    ],
+    "urgency": "Normal (Within a Week)",
+    "preferred_date": "2025-08-29",
+    "alternative_dates": [],
+    "budget_eur": "44.00",
+    "payment_method": "bank_transfer",
+    "status": "open",
+    "created_at": "2025-08-25T10:19:52.895Z",
+    "updated_at": "2025-08-25T10:19:52.895Z"
+  }
+},
+{
+  "model": "service_requests.servicerequest",
+  "pk": 3,
+  "fields": {
+    "buyer": 1,
+    "title": "sdfgbn",
+    "machine_type": "gfhj",
+    "serial_number": "fdhgd",
+    "locations": [],
+    "customer_company_name": "gsdfhs",
+    "customer_address": "gsdgggdfg",
+    "contact_person_name": "sdsfsd",
+    "contact_person_position": "sdgsdgs",
+    "contact_email": "d@gmail.com",
+    "contact_phone": "17483q53q75q2",
+    "service_types": [
+      "Maintenance"
+    ],
+    "has_maintenance_history": false,
+    "history_notes": "",
+    "issue_description": "reerqrq",
+    "technician_requirements": [
+      "PLC (Siemens, Beckhoff, etc)"
+    ],
+    "safety_requirements": [
+      "Safety Certificate"
+    ],
+    "urgency": "Normal (Within a Week)",
+    "preferred_date": "2025-08-31",
+    "alternative_dates": [
+      "gs"
+    ],
+    "budget_eur": "343.00",
+    "payment_method": "credit_card",
+    "status": "in_progress",
+    "created_at": "2025-08-25T12:05:28.055Z",
+    "updated_at": "2025-08-25T13:07:43.596Z"
+  }
+},
+{
+  "model": "service_requests.servicerequest",
+  "pk": 4,
+  "fields": {
+    "buyer": 2,
+    "title": "TC Manager",
+    "machine_type": "Server Dell",
+    "serial_number": "123De44",
+    "locations": [],
+    "customer_company_name": "Whatsbeef GMBH",
+    "customer_address": "Seckbaecher Gasse 5 � 60311 Frankfurt\n069 98956170",
+    "contact_person_name": "Ryben",
+    "contact_person_position": "Chef",
+    "contact_email": "ruben@whtbeef.com",
+    "contact_phone": "0175667352q7431",
+    "service_types": [
+      "Maintenance",
+      "Installation"
+    ],
+    "has_maintenance_history": false,
+    "history_notes": "",
+    "issue_description": "Seckbaecher Gasse 5 � 60311 Frankfurt\n069 98956170",
+    "technician_requirements": [
+      "PLC (Siemens, Beckhoff, etc)"
+    ],
+    "safety_requirements": [
+      "First Aid Course"
+    ],
+    "urgency": "Medium (Within 3 Days)",
+    "preferred_date": "2025-08-29",
+    "alternative_dates": [],
+    "budget_eur": "500.00",
+    "payment_method": "invoice",
+    "status": "in_progress",
+    "created_at": "2025-08-25T12:52:15.201Z",
+    "updated_at": "2025-08-25T12:55:44.695Z"
+  }
+},
+{
+  "model": "applications.application",
+  "pk": 1,
+  "fields": {
+    "request": 1,
+    "provider": 1,
+    "pitch": "I am interested in this opportunity.",
+    "comments": "",
+    "available_on_preferred_date": true,
+    "suggested_date": null,
+    "price_adjustment_eur": null,
+    "status": "accepted",
+    "chat_thread": null,
+    "created_at": "2025-08-25T11:12:19.684Z",
+    "updated_at": "2025-08-25T11:31:31.796Z"
+  }
+},
+{
+  "model": "applications.application",
+  "pk": 2,
+  "fields": {
+    "request": 1,
+    "provider": 1,
+    "pitch": "I am interested in this opportunity.",
+    "comments": "",
+    "available_on_preferred_date": true,
+    "suggested_date": null,
+    "price_adjustment_eur": null,
+    "status": "rejected",
+    "chat_thread": null,
+    "created_at": "2025-08-25T11:12:43.141Z",
+    "updated_at": "2025-08-25T11:31:28.453Z"
+  }
+},
+{
+  "model": "applications.application",
+  "pk": 3,
+  "fields": {
+    "request": 3,
+    "provider": 1,
+    "pitch": "faddasg",
+    "comments": "wrwr",
+    "available_on_preferred_date": true,
+    "suggested_date": null,
+    "price_adjustment_eur": "33.99",
+    "status": "accepted",
+    "chat_thread": null,
+    "created_at": "2025-08-25T12:13:02.387Z",
+    "updated_at": "2025-08-25T13:07:39.306Z"
+  }
+},
+{
+  "model": "applications.application",
+  "pk": 4,
+  "fields": {
+    "request": 4,
+    "provider": 2,
+    "pitch": "Seckbaecher Gasse 5 � 60311 Frankfurt\n069 98956170Seckbaecher Gasse 5 � 60311 Frankfurt\n069 98956170Seckbaecher Gasse 5 � 60311 Frankfurt\n069 98956170Seckbaecher Gasse 5 � 60311 Frankfurt\n069 98956170Seckbaecher Gasse 5 � 60311 Frankfurt\n069 98956170",
+    "comments": "",
+    "available_on_preferred_date": true,
+    "suggested_date": null,
+    "price_adjustment_eur": "400.00",
+    "status": "accepted",
+    "chat_thread": null,
+    "created_at": "2025-08-25T12:54:00.787Z",
+    "updated_at": "2025-08-25T12:55:44.675Z"
+  }
+},
+{
+  "model": "applications.application",
+  "pk": 5,
+  "fields": {
+    "request": 3,
+    "provider": 2,
+    "pitch": "Seckbaecher Gasse 5 � 60311 Frankfurt\n069 98956170Seckbaecher Gasse 5 � 60311 Frankfurt\n069 98956170Seckbaecher Gasse 5 � 60311 Frankfurt\n069 98956170Seckbaecher Gasse 5 � 60311 Frankfurt\n069 98956170",
+    "comments": "",
+    "available_on_preferred_date": false,
+    "suggested_date": "2025-08-28",
+    "price_adjustment_eur": "33.00",
+    "status": "accepted",
+    "chat_thread": null,
+    "created_at": "2025-08-25T12:54:42.370Z",
+    "updated_at": "2025-08-25T13:07:43.577Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 1,
+  "fields": {
+    "user": 3,
+    "type": "new_application",
+    "payload": {
+      "application_id": 3,
+      "request_title": "sdfgbn",
+      "provider_name": " "
+    },
+    "read_at": "2025-08-25T13:07:03.057Z",
+    "created_at": "2025-08-25T12:13:02.413Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 2,
+  "fields": {
+    "user": 4,
+    "type": "new_application",
+    "payload": {
+      "application_id": 4,
+      "request_title": "TC Manager",
+      "provider_name": " "
+    },
+    "read_at": null,
+    "created_at": "2025-08-25T12:54:00.798Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "type": "new_application",
+    "payload": {
+      "application_id": 5,
+      "request_title": "sdfgbn",
+      "provider_name": " "
+    },
+    "read_at": "2025-08-25T13:07:01.995Z",
+    "created_at": "2025-08-25T12:54:42.396Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 4,
+  "fields": {
+    "user": 5,
+    "type": "application_accepted",
+    "payload": {
+      "application_id": 4,
+      "request_title": "TC Manager"
+    },
+    "read_at": null,
+    "created_at": "2025-08-25T12:55:44.705Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 5,
+  "fields": {
+    "user": 2,
+    "type": "application_accepted",
+    "payload": {
+      "application_id": 3,
+      "request_title": "sdfgbn"
+    },
+    "read_at": "2025-08-25T13:08:32.231Z",
+    "created_at": "2025-08-25T13:07:39.334Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 6,
+  "fields": {
+    "user": 5,
+    "type": "application_accepted",
+    "payload": {
+      "application_id": 5,
+      "request_title": "sdfgbn"
+    },
+    "read_at": null,
+    "created_at": "2025-08-25T13:07:43.606Z"
+  }
+}
+]

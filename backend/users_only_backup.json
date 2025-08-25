@@ -1,0 +1,107 @@
+[
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$btJn5stdQgexncxXrIYkUp$Ff5HFVcycbSAew2bdrqWrI4H5CoV8htGbxacli8K3Yk=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "tanvir",
+    "first_name": "",
+    "last_name": "",
+    "email": "tanviralam.cse@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-08-21T15:55:58.486Z",
+    "role": "",
+    "phone": "",
+    "locale": "de",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$fw8kTU7JU8NjtEQgLBIZ0u$/emKia0TY3AyzUrtJvOwxJnYnXPySSaQ3YQ8Im4qcDQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "tanvir@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "tanvir@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-21T17:11:57.837Z",
+    "role": "provider",
+    "phone": "",
+    "locale": "de",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$cpIppzYb2y9LMMsN1Udtwj$suQPF5OB3oX8gJB1ZbJt1maC7xI2BPejyH4XNqwX2lk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "imtiaz01",
+    "first_name": "",
+    "last_name": "",
+    "email": "imtiaz@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-21T17:29:32.256Z",
+    "role": "buyer",
+    "phone": "",
+    "locale": "de",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Yjcrc4iBb7jCMPkYDuIHqS$O+qLXJuGbbLfbTHQg3AD2YANEZJUOkvf902jVH5Prf0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "tuhin2233",
+    "first_name": "",
+    "last_name": "",
+    "email": "contact@tanvir.cloud",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-25T12:48:37.425Z",
+    "role": "buyer",
+    "phone": "",
+    "locale": "de",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$NIouIGKmxmjOPXv335yBZY$dUxIr+/9PWofyyo6i+jPi2muYiQRkIiZzHaGIMkdLL0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "imtiaz02",
+    "first_name": "",
+    "last_name": "",
+    "email": "imtiaz02@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-25T12:49:16.895Z",
+    "role": "provider",
+    "phone": "",
+    "locale": "de",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

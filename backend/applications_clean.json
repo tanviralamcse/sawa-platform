@@ -1,0 +1,87 @@
+[
+{
+  "model": "applications.application",
+  "pk": 1,
+  "fields": {
+    "request": 1,
+    "provider": 1,
+    "pitch": "I am interested in this opportunity.",
+    "comments": "",
+    "available_on_preferred_date": true,
+    "suggested_date": null,
+    "price_adjustment_eur": null,
+    "status": "accepted",
+    "chat_thread": null,
+    "created_at": "2025-08-25T11:12:19.684Z",
+    "updated_at": "2025-08-25T11:31:31.796Z"
+  }
+},
+{
+  "model": "applications.application",
+  "pk": 2,
+  "fields": {
+    "request": 1,
+    "provider": 1,
+    "pitch": "I am interested in this opportunity.",
+    "comments": "",
+    "available_on_preferred_date": true,
+    "suggested_date": null,
+    "price_adjustment_eur": null,
+    "status": "rejected",
+    "chat_thread": null,
+    "created_at": "2025-08-25T11:12:43.141Z",
+    "updated_at": "2025-08-25T11:31:28.453Z"
+  }
+},
+{
+  "model": "applications.application",
+  "pk": 3,
+  "fields": {
+    "request": 3,
+    "provider": 1,
+    "pitch": "faddasg",
+    "comments": "wrwr",
+    "available_on_preferred_date": true,
+    "suggested_date": null,
+    "price_adjustment_eur": "33.99",
+    "status": "accepted",
+    "chat_thread": null,
+    "created_at": "2025-08-25T12:13:02.387Z",
+    "updated_at": "2025-08-25T13:07:39.306Z"
+  }
+},
+{
+  "model": "applications.application",
+  "pk": 4,
+  "fields": {
+    "request": 4,
+    "provider": 2,
+    "pitch": "Seckbaecher Gasse 5 · 60311 Frankfurt\n069 98956170Seckbaecher Gasse 5 · 60311 Frankfurt\n069 98956170Seckbaecher Gasse 5 · 60311 Frankfurt\n069 98956170Seckbaecher Gasse 5 · 60311 Frankfurt\n069 98956170Seckbaecher Gasse 5 · 60311 Frankfurt\n069 98956170",
+    "comments": "",
+    "available_on_preferred_date": true,
+    "suggested_date": null,
+    "price_adjustment_eur": "400.00",
+    "status": "accepted",
+    "chat_thread": null,
+    "created_at": "2025-08-25T12:54:00.787Z",
+    "updated_at": "2025-08-25T12:55:44.675Z"
+  }
+},
+{
+  "model": "applications.application",
+  "pk": 5,
+  "fields": {
+    "request": 3,
+    "provider": 2,
+    "pitch": "Seckbaecher Gasse 5 · 60311 Frankfurt\n069 98956170Seckbaecher Gasse 5 · 60311 Frankfurt\n069 98956170Seckbaecher Gasse 5 · 60311 Frankfurt\n069 98956170Seckbaecher Gasse 5 · 60311 Frankfurt\n069 98956170",
+    "comments": "",
+    "available_on_preferred_date": false,
+    "suggested_date": "2025-08-28",
+    "price_adjustment_eur": "33.00",
+    "status": "accepted",
+    "chat_thread": null,
+    "created_at": "2025-08-25T12:54:42.370Z",
+    "updated_at": "2025-08-25T13:07:43.577Z"
+  }
+}
+]

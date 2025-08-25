@@ -1,0 +1,13 @@
+{
+  "name": "sawa-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "cd frontend && npm start"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}

@@ -1,0 +1,156 @@
+[
+{
+  "model": "service_requests.servicerequest",
+  "pk": 1,
+  "fields": {
+    "buyer": 1,
+    "title": "Test Raw Service Request",
+    "machine_type": "Industrial Robot",
+    "serial_number": "ROBOT-12345",
+    "locations": [],
+    "customer_company_name": "",
+    "customer_address": "123 Test Street, Test City",
+    "contact_person_name": "Test Contact",
+    "contact_person_position": "Manager",
+    "contact_email": "test@example.com",
+    "contact_phone": "+49123456789",
+    "service_types": [
+      "Maintenance",
+      "Inspection"
+    ],
+    "has_maintenance_history": false,
+    "history_notes": "",
+    "issue_description": "Robot arm is making unusual noises during operation",
+    "technician_requirements": [
+      "PLC Programming",
+      "Robotics"
+    ],
+    "safety_requirements": [
+      "Safety Certification"
+    ],
+    "urgency": "Normal (Within a Week)",
+    "preferred_date": "2025-09-01",
+    "alternative_dates": [],
+    "budget_eur": "2500.00",
+    "payment_method": "bank_transfer",
+    "status": "in_progress",
+    "created_at": "2025-08-25T10:03:50.446Z",
+    "updated_at": "2025-08-25T11:31:31.815Z"
+  }
+},
+{
+  "model": "service_requests.servicerequest",
+  "pk": 2,
+  "fields": {
+    "buyer": 1,
+    "title": "dvzxvzd",
+    "machine_type": "vv\\d",
+    "serial_number": "sdsfsf",
+    "locations": [],
+    "customer_company_name": "dfas",
+    "customer_address": "fdfsfsa",
+    "contact_person_name": "ffdsfdf",
+    "contact_person_position": "fsdfds",
+    "contact_email": "imtiaz@gmail.com",
+    "contact_phone": "ffdffd",
+    "service_types": [
+      "Maintenance",
+      "Installation"
+    ],
+    "has_maintenance_history": false,
+    "history_notes": "",
+    "issue_description": "dwafaw",
+    "technician_requirements": [
+      "PLC (Siemens, Beckhoff, etc)"
+    ],
+    "safety_requirements": [
+      "Occupational Safety Training"
+    ],
+    "urgency": "Normal (Within a Week)",
+    "preferred_date": "2025-08-29",
+    "alternative_dates": [],
+    "budget_eur": "44.00",
+    "payment_method": "bank_transfer",
+    "status": "open",
+    "created_at": "2025-08-25T10:19:52.895Z",
+    "updated_at": "2025-08-25T10:19:52.895Z"
+  }
+},
+{
+  "model": "service_requests.servicerequest",
+  "pk": 3,
+  "fields": {
+    "buyer": 1,
+    "title": "sdfgbn",
+    "machine_type": "gfhj",
+    "serial_number": "fdhgd",
+    "locations": [],
+    "customer_company_name": "gsdfhs",
+    "customer_address": "gsdgggdfg",
+    "contact_person_name": "sdsfsd",
+    "contact_person_position": "sdgsdgs",
+    "contact_email": "d@gmail.com",
+    "contact_phone": "17483q53q75q2",
+    "service_types": [
+      "Maintenance"
+    ],
+    "has_maintenance_history": false,
+    "history_notes": "",
+    "issue_description": "reerqrq",
+    "technician_requirements": [
+      "PLC (Siemens, Beckhoff, etc)"
+    ],
+    "safety_requirements": [
+      "Safety Certificate"
+    ],
+    "urgency": "Normal (Within a Week)",
+    "preferred_date": "2025-08-31",
+    "alternative_dates": [
+      "gs"
+    ],
+    "budget_eur": "343.00",
+    "payment_method": "credit_card",
+    "status": "in_progress",
+    "created_at": "2025-08-25T12:05:28.055Z",
+    "updated_at": "2025-08-25T13:07:43.596Z"
+  }
+},
+{
+  "model": "service_requests.servicerequest",
+  "pk": 4,
+  "fields": {
+    "buyer": 2,
+    "title": "TC Manager",
+    "machine_type": "Server Dell",
+    "serial_number": "123De44",
+    "locations": [],
+    "customer_company_name": "Whatsbeef GMBH",
+    "customer_address": "Seckbaecher Gasse 5 · 60311 Frankfurt\n069 98956170",
+    "contact_person_name": "Ryben",
+    "contact_person_position": "Chef",
+    "contact_email": "ruben@whtbeef.com",
+    "contact_phone": "0175667352q7431",
+    "service_types": [
+      "Maintenance",
+      "Installation"
+    ],
+    "has_maintenance_history": false,
+    "history_notes": "",
+    "issue_description": "Seckbaecher Gasse 5 · 60311 Frankfurt\n069 98956170",
+    "technician_requirements": [
+      "PLC (Siemens, Beckhoff, etc)"
+    ],
+    "safety_requirements": [
+      "First Aid Course"
+    ],
+    "urgency": "Medium (Within 3 Days)",
+    "preferred_date": "2025-08-29",
+    "alternative_dates": [],
+    "budget_eur": "500.00",
+    "payment_method": "invoice",
+    "status": "in_progress",
+    "created_at": "2025-08-25T12:52:15.201Z",
+    "updated_at": "2025-08-25T12:55:44.695Z"
+  }
+}
+]

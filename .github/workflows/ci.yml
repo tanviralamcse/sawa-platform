@@ -1,0 +1,52 @@
+name: CI
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      - name: Install backend dependencies
+        run: |
+          cd backend
+          python -m pip install --upgrade pip
+          pip install django djangorestframework
+      - name: Run backend tests with coverage
+        run: |
+          cd backend
+          coverage run manage.py test
+          coverage report
+          coverage xml
+      - name: Upload backend coverage
+        uses: actions/upload-artifact@v3
+        with:
+          name: backend-coverage
+          path: backend/coverage.xml
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Install frontend dependencies
+        run: |
+          cd frontend
+          npm install
+      - name: Run frontend build
+        run: |
+          cd frontend
+          npm run build
+      - name: Run frontend tests with coverage
+        run: |
+          cd frontend
+          npm test -- --coverage --watchAll=false
+      - name: Upload frontend coverage
+        uses: actions/upload-artifact@v3
+        with:
+          name: frontend-coverage
+          path: frontend/coverage
