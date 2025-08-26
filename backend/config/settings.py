@@ -1,11 +1,20 @@
 import os
 from pathlib import Path
-import dj_database_url
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'replace-me')
 DEBUG = os.getenv('DJANGO_DEBUG', 'True').lower() == 'true'
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',') if os.getenv('ALLOWED_HOSTS') else ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',') if os.getenv('ALLOWED_HOSTS') else [
+    'localhost', 
+    '127.0.0.1',
+    '.vercel.app',
+    'sawa-platform.vercel.app',
+    '.sawa-platform.vercel.app'
+]
 
 # Default auto field for all models
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
@@ -23,7 +32,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
-    'users',
+    'users.apps.UsersConfig',  # Updated
     'buyers',
     'providers',
     'service_requests',
@@ -67,14 +76,14 @@ TEMPLATES = [
 WSGI_APPLICATION = 'config.wsgi.application'
 
 # Database Configuration
-# Use DATABASE_URL if available (for production), otherwise use SQLite (for development)
+import dj_database_url
 DATABASE_URL = os.getenv('DATABASE_URL')
-
 if DATABASE_URL:
     DATABASES = {
-        'default': dj_database_url.parse(DATABASE_URL)
+        'default': dj_database_url.parse(DATABASE_URL, conn_max_age=600)
     }
 else:
+    # For local development, use persistent SQLite
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',

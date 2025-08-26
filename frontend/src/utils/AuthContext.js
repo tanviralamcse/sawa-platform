@@ -41,13 +41,19 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (username, password) => {
     try {
-      const response = await fetch(buildApiUrl('auth/login/'), {
+      const apiUrl = buildApiUrl('auth/login/');
+      console.log('Login attempt - API URL:', apiUrl);
+      
+      const response = await fetch(apiUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ username, password }),
       });
+
+      console.log('Login response status:', response.status);
+      console.log('Login response headers:', Object.fromEntries(response.headers.entries()));
 
       if (response.ok) {
         const data = await response.json();
@@ -66,10 +72,23 @@ export const AuthProvider = ({ children }) => {
         console.log('Auth state updated - isAuthenticated:', true);
         return { success: true };
       } else {
-        const error = await response.json();
-        return { success: false, error: error.error || 'Login failed' };
+        // try to capture JSON error, but fallback to text for 500s
+        let errBody;
+        try {
+          errBody = await response.json();
+        } catch (e) {
+          try {
+            errBody = await response.text();
+          } catch (e2) {
+            errBody = `Status ${response.status}`;
+          }
+        }
+        console.error('Login failed:', response.status, errBody);
+        console.error('Login failed - full response:', response);
+        return { success: false, error: errBody.error || errBody || 'Login failed' };
       }
     } catch (error) {
+      console.error('Login network error:', error);
       return { success: false, error: 'Network error' };
     }
   };
@@ -87,8 +106,19 @@ export const AuthProvider = ({ children }) => {
       if (response.ok) {
         return { success: true };
       } else {
-        const error = await response.json();
-        return { success: false, error };
+        // try to capture JSON error, but fallback to text for 500s
+        let errBody;
+        try {
+          errBody = await response.json();
+        } catch (e) {
+          try {
+            errBody = await response.text();
+          } catch (e2) {
+            errBody = `Status ${response.status}`;
+          }
+        }
+        console.error('Register failed:', response.status, errBody);
+        return { success: false, error: errBody };
       }
     } catch (error) {
       return { success: false, error: 'Network error' };

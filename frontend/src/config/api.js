@@ -2,13 +2,19 @@
 // This file centralizes the API base URL for all API calls
 
 const getApiBaseUrl = () => {
-  // Check if we're in development or production
+  // Allow an explicit environment override (useful for Vercel env var)
+  if (process.env.REACT_APP_API_URL) {
+    // strip trailing slash if present
+    return process.env.REACT_APP_API_URL.replace(/\/+$/, '');
+  }
+
+  // Default to localhost in development
   if (process.env.NODE_ENV === 'development') {
     return 'http://localhost:8000';
   }
-  
-  // Production API URL
-  return 'https://sawa-platform.vercel.app';
+
+  // In production, use the same domain as the frontend (relative to current domain)
+  return window.location.origin;
 };
 
 export const API_BASE_URL = getApiBaseUrl();

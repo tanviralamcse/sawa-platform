@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './utils/AuthContext';
 import AppShell from './AppShell';
+import Landing from './pages/Landing';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
@@ -14,6 +15,9 @@ import Reviews from './pages/Reviews';
 import Settings from './pages/Settings';
 import './App.css';
 import './sawa.css';
+import './pages/Landing.css';
+import NotFound from './pages/NotFound';
+import Footer from './components/Footer';
 
 function ProtectedRoute({ children }) {
   const { isAuthenticated, loading } = useAuth();
@@ -31,16 +35,19 @@ function App() {
   return (
     <AuthProvider>
       <Router>
-        <div className="App">
+  <div className="App">
           <Routes>
+            {/* Public routes */}
+            <Route path="/" element={<Landing />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+
+            {/* Authenticated app */}
             <Route path="/" element={
               <ProtectedRoute>
                 <AppShell />
               </ProtectedRoute>
             }>
-              <Route index element={<Dashboard />} />
               <Route path="dashboard" element={<Dashboard />} />
               <Route path="onboarding/buyer" element={<OnboardingBuyer />} />
               <Route path="onboarding/provider" element={<OnboardingProvider />} />
@@ -51,7 +58,9 @@ function App() {
               <Route path="reviews" element={<Reviews />} />
               <Route path="settings" element={<Settings />} />
             </Route>
+            <Route path="*" element={<NotFound />} />
           </Routes>
+          <Footer />
         </div>
       </Router>
     </AuthProvider>

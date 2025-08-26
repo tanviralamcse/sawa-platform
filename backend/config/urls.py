@@ -1,8 +1,13 @@
 from django.contrib import admin
 from django.urls import path, include
+from django.http import JsonResponse
+
+def health_view(request):
+    return JsonResponse({"status": "ok"})
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/health/', health_view),
     path('api/auth/', include('users.urls')),
     path('api/', include('users.urls')),  # For dashboard endpoint
     path('api/buyers/', include('buyers.urls')),

@@ -34,3 +34,12 @@ yarn-error.log*
 *.bak
 *.tmp
 .vercel
+
+# Python virtual environments
+venv/
+.venv/
+
+# Local data export files (avoid committing fixtures with sensitive data)
+backend/*data_export.json
+backend/cleaned_data_export.json
+backend/sqlite_data_export.json
